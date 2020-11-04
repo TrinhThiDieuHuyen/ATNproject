@@ -7,7 +7,7 @@ var env = nunjucks.configure('view', {
     express: app
 });
 /// ------------------ CONFIG
-const PORT = 8081;
+const PORT = process.env.PORT || 8081;
 
 /// ------------------ Khai bao LIB tự viết
 
