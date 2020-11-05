@@ -1,0 +1,104 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    
+  }
+  
+  td, th {
+    
+    text-align: left;
+    padding: 1px;
+  }
+  nav{
+    background-color:#425350;
+}
+nav ul{
+    margin:0;
+    padding:0;
+    list-style-type:none;
+}
+nav li{
+    display:inline-block;
+}
+nav li a{
+    display:inline-block;
+    text-decoration:none;
+    color:white;
+    padding:14px 16px;
+}
+.search{
+    position:relative;
+    display:inline-block;
+    color:white;
+    padding:14px 16px;
+}
+.search-bar{
+    position:absolute;
+    display:none;
+    right:0;
+    top:45px;
+}
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 16px;
+    outline:none;
+    padding: 12px 14px;
+    transition: width 0.4s ease-in-out;
+}
+nav li:hover{
+    background-color:orange;
+}
+.search:hover{
+    background-color:orange;
+    color:black;
+}
+.search:hover .search-bar{
+    display:block;
+}
+form input[type="text"]:focus{
+    width:500px;
+    background-color:lightpink;
+}
+  
+ #black{
+     background: gray;
+ }
+ .footer {
+    position: fixed;
+    left: 10pt;
+    bottom: 10pt;
+    width: 100%;
+    color: black;
+    text-align: left;
+ }
+
+ #footer {
+    position: relative;
+    width: 100%;
+    padding: 0 0 50px;
+    border-top: 1px solid #ebebeb;
+}
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td, img {
+    margin: 0;
+    padding: 0;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+body#main
+body, code, input, select, textarea {
+    font-size: 12px;
+    line-height: 1.25;
+    color: #000;
+    font-family: 'klavikame','Nanum Barun Gothic',Arial,'Dotum','AppleGothic',Helvetica,sans-serif;
+}
+body, code {
+    font: 0.8em Verdana,'Dotum','AppleGothic',sans-serif;
+    color: #353535;
+    background: #fff;
+}
