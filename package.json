@@ -1,0 +1,26 @@
+{
+  "name": "atn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TrinhThiDieuHuyen/ATNproject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TrinhThiDieuHuyen/ATNproject/issues"
+  },
+  "homepage": "https://github.com/TrinhThiDieuHuyen/ATNproject#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "mongodb": "^3.6.2",
+    "mongoose": "^5.10.12",
+    "nunjucks": "^3.2.2"
+  }
+}
