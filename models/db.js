@@ -1,5 +1,5 @@
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/ATNselect', {useUnifiedTopology: true} );
+mongoose.connect('mongodb+srv://dieuhuyen:dieuhuyen@cluster0.ikkly.mongodb.net/ATNshop?retryWrites=true&w=majority', {useUnifiedTopology: true} );
 
 var productSchema = mongoose.Schema({
     images: Array,
@@ -7,7 +7,7 @@ var productSchema = mongoose.Schema({
     price: String
 });
 
-var Product = mongoose.model('/product', productSchema, 'product');
+var Product = mongoose.model('Product', productSchema, 'product');
 
 /*var p1 = new Product({
     images: ['BLACKPINK BROKEN HEART SUPERSTARS.jpg'],
