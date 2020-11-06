@@ -1,1 +1,1 @@
-web: app.js
+web:node scr/app.js

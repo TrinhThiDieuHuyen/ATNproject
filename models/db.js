@@ -1,5 +1,5 @@
 var mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/ATNselect', { useUnifiedTopology: true } );
+mongoose.connect('mongodb://localhost:27017/ATNselect', {useUnifiedTopology: true} );
 
 var productSchema = mongoose.Schema({
     images: Array,
